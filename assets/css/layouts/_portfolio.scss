@@ -1,0 +1,24 @@
+.single-portfolio { background-size: cover;
+                    background-position: center;
+                    height: 250px;
+                    float: left;
+                    margin-right: 30px;
+                    width: 370px;
+                    margin-bottom: 30px;
+                    position: relative;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    h4 {
+                        position: absolute;
+                        background-color: $black;
+                        color: $white;
+                        width: 100%;
+                        text-transform: capitalize;
+                        left: 0;
+                        bottom: 0;
+                        padding: 20px;
+                        font-size: 22px;
+                        text-align: center;
+                    }
+                }

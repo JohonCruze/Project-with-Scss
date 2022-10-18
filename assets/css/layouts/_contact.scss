@@ -1,0 +1,85 @@
+.contact-area {
+    background-color: $bg-gray;
+}
+.single-address {
+    float: left;
+    width: 400px;
+    i {
+        font-size: 30px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        border: 1px solid $border_gray;
+        line-height: 60px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    span {
+        display: block;
+        font-weight: normal;
+        font-size: 16px;
+        text-transform: lowercase;
+        margin-top: 5px;
+    }
+}
+
+
+.contact-bottom {
+    margin-top: 50px;
+    .contact-form {
+        float: left;
+        width: 600px;
+        margin-right: 50px;
+    }
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $border_gray;
+        margin-bottom: 10px;
+        outline: $border_gray;
+        &::placeholder {
+            text-transform: capitalize;
+        }
+    }
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $border_gray;
+        margin-bottom: 10px;
+        height: 110px;
+        outline: $border_gray;
+        &::placeholder {
+            text-transform: capitalize;
+        }
+    }
+    input[type="submit"] {
+        background-color: $primary_color;
+        width: auto;
+        border: 0;
+        font-size: 20px;
+        padding: 10px 20px;
+        font-weight: bold;
+        color: $white;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: .3s;
+        &:hover {
+            background-color: $black;
+        }
+    }
+}
+
+    .contact-map {
+        float: right;
+        width: 550px;
+        iframe {
+            width: 100%;
+            border: 1px solid $border_gray;
+            padding: 3px;
+            height: 250px;
+        }
+    }
